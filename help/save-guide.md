@@ -2,7 +2,7 @@
 
 There are three possible situations when the topic is “save problems” with 100% Orange Juice, and it all depends on the message you get:
 
-- In case you got no message at all, some of your data is weird **AND** you didn't play the game for a bit of time before coming back (read as, the last time you played was before **June 2024**), your save data got accumulated incompatibilities under the old format (**user.dat**) and it's a miracle it didn't crash the game while loading! In this case not much can be done about it, but if the corruption is somewhat blocking you from playing the game, contact a Fruitbat, and we will do everything possible to help you.
+- In case you got no message at all, some of your data is weird **AND** you didn't play the game for a bit of time before coming back (read as, the last time you played was before **June 2024**), your save data got accumulated incompatibilities under the old format (**user.dat**) and it's a miracle it didn't crash the game while loading! In this case not much can be done about it, but if the corruption is somewhat blocking you from playing the game, contact a Fruitbat on Discord or send us an e-mail on support@fruitbatfactory.com with your user.dat file, and we will do everything possible to help you.
 
 - In case you got the message **"There was a problem processing the save load, the game will now close to preserve your data"**, contact us with your user.dat and save folder as soon as possible, the likelihood of this message is extremely low, but in case it appears, a bug is the cause, no doubt, and it needs to be investigated.
 
@@ -17,7 +17,7 @@ A backup of each profile is generated at the game's user data directory, the loc
 
 - **Windows**: %APPDATA%/FBF/100OrangeJuice
 - **Linux**: ~/.local/share/FBF/100OrangeJuice
-- **[TBR] macOS**: ~/Library/Application Support/FBF/100OrangeJuice
+- **macOS**: ~/Library/Application Support/FBF/100OrangeJuice
 
 Inside this directory, each time a profile is successfully loaded by the game, a backup is generated! Exactly at:
 **{User Data Directory}/save/backup/profile{0,1,2}/{Your Steam ID}_{UNIX Timestamp from backup time}.ojs**
@@ -30,9 +30,9 @@ If you don't have much notion of UNIX Timestamps, you may sort the files by most
 ***BE SURE TO EXECUTE THE COPY OPERATION WITH THE GAME CLOSED!***
 
 
-# How to restore a backup (the automated way [beta])
+# How to restore a backup (the automated way, beta, currently available for Windows only)
 
-- Download the OJ Backup Manager in one of the messages below
+- Download the [OJ Backup Manager](https://github.com/FruitbatFactory/100-Orange-Juice/raw/refs/heads/main/help/OJBackupManager.zip)
 - Execute it
 - You should be able to see three columns and two buttons!
 
@@ -53,4 +53,4 @@ If you don't have much notion of UNIX Timestamps, you may sort the files by most
 
 Your problem should be solved, hopefully! If it is, have a nice day!
 
-If it isn't, contact us with a ZIP File containing your save folder and your backup folder at the **{User Data Directory}**, and if you used OJ Backup Manager, the folder "backup" that was created inside the program folder (it doesn't overwrite the target save files without backing them up first, doesn't matter if they are corrupted or not)
+If it isn't, contact us (on Discord or send us an e-mail on support@fruitbatfactory.com) with a ZIP File containing your save folder and your backup folder at the **{User Data Directory}**, and if you used OJ Backup Manager, the folder "backup" that was created inside the program folder (it doesn't overwrite the target save files without backing them up first, doesn't matter if they are corrupted or not). You may create an issue here as well, but remember its public, so to preserve your save data privacy, you may find preferable to contact us directly.
