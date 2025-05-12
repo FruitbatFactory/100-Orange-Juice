@@ -19,5 +19,5 @@ Please respect the issue templates, and try to write your report in English, if 
 - I have a problem with my save data, how to fix it?
   - Check the [Guideline on how to deal with save related problems](https://github.com/FruitbatFactory/100-Orange-Juice/blob/main/help/save-guide.md)
 - I'm having a red screen saying I might have installed some kind of DRM bypass!
-  - Delete the files it points out to you, and you should be fine. If you think the pointed files are valid and you have a reason, please report to us as false positive.
+  - Delete the files it points out to you, and you should be fine. If you think the pointed files are valid and you have a reason, please report to us as a false positive.
     
