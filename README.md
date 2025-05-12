@@ -1,5 +1,9 @@
 # 100% Orange Juice
 
+<p align="center">
+  <img src="https://github.com/FruitbatFactory/100-Orange-Juice/raw/refs/heads/main/imgs/logo.png">
+</p>
+
 This is the official bug tracker for 100% Orange Juice on GitHub, please use it to check for known issues (and their related information) or report your own issues, if you so desires. You can still use whatever other means (E-mail, Steam, Discord to report issues about the game), use whatever is easier for you.
 
 Please respect the issue templates, and try to write your report in English, if English isn't your native language and you aren't confotable with using it, please include a machine translation to English together with a copy of your report in your native language, we may use it to understand the situation better.
