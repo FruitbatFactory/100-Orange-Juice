@@ -11,7 +11,7 @@ Please respect the issue templates, and try to write your report in English, if 
 ### How to report an issue
 
 - Before anything, make sure your system and drivers are properly updated, please understand that if you are using, for example, a version of your Operational System that isn't supported anymore, it could make figuring out some issues more complicated. But don't feel pressed to update if you have a reason, we will try our best to check your case.
-- Follow the information what will be asked by the *New Issue* Template to the best of your effort
+- Follow the information what will be asked by the **New Issue** Template to the best of your effort
 - When answering to existing issues, keep the conversation within the theme, if you have an unrelated issue that may be pertinent, please report it separately and link it in a message stating your reasoning to think so.
 
 ### Frequently asked questions
