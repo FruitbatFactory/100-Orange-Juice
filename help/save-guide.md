@@ -32,7 +32,7 @@ If you don't have much notion of UNIX Timestamps, you may sort the files by most
 
 # How to restore a backup (the automated way, beta, currently available for Windows only)
 
-- Download the [OJ Backup Manager](https://github.com/FruitbatFactory/100-Orange-Juice/raw/refs/heads/main/help/OJBackupManager.zip)
+- You can find it directly on the game folder at **{Game Folder}/tools**, but can also download it from here: [OJ Backup Manager](https://github.com/FruitbatFactory/100-Orange-Juice/raw/refs/heads/main/help/OJBackupManager.zip)
 - Execute it
 - You should be able to see three columns and two buttons!
 
