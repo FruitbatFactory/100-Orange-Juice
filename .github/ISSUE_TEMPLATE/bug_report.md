@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+**Please remember to erase sections you aren't able to provide or that aren't relevant**
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
