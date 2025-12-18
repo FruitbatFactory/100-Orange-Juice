@@ -1,14 +1,22 @@
 # Guideline on how to deal with save related problems
 
-There are three possible situations when the topic is “save problems” with 100% Orange Juice, and it all depends on the message you get:
+There are five possible situations when the topic is “save problems” with 100% Orange Juice, and it all depends on the message you get:
 
-- In case you got no message at all, some of your data is weird **AND** you didn't play the game for a bit of time before coming back (read as, the last time you played was before **June 2024**), your save data got accumulated incompatibilities under the old format (**user.dat**) and it's a miracle it didn't crash the game while loading! In this case not much can be done about it, but if the corruption is somewhat blocking you from playing the game, contact a Fruitbat on Discord or send us an e-mail on support@fruitbatfactory.com with your user.dat file, and we will do everything possible to help you.
+1) In case you got no message at all, some of your data is weird **AND** you didn't play the game for a bit of time before coming back (read as, the last time you played was before **June 2024**) (and *didn't notice before*, or you have just run the tool described on item 5), your save data got accumulated incompatibilities under the old format (**user.dat**) and it's a miracle it didn't crash the game while loading! In this case not much can be done about it, but if the corruption is somewhat blocking you from playing the game, contact a Fruitbat on Discord or send us an e-mail on support@fruitbatfactory.com with your user.dat file, and we will do everything possible to help you.
 
-- In case you got the message **"There was a problem processing the save load, the game will now close to preserve your data"**, contact us with your user.dat and save folder as soon as possible, the likelihood of this message is extremely low, but in case it appears, a bug is the cause, no doubt, and it needs to be investigated.
+2) In case you got the message **"There was a problem processing the save load, the game will now close to preserve your data"**, contact us with your user.dat and save folder as soon as possible, the likelihood of this message is extremely low, but in case it appears, a bug is the cause, no doubt, and it needs to be investigated.
 
-- In case you got the message **"While trying to load your save data, the game discovered that a profile was externally corrupted in some way"**, the situation is simple, your data was corrupted in some way that **isn't** related to the game, it's probably caused by hardware failure or external modifications. In this case, you can restore a backup, and everything should be ok! Below you can find how to do so!~
+3) In case you got the message **"While trying to load your save data, the game discovered that a profile was externally corrupted in some way"**, the situation is simple, your data was corrupted in some way that **isn't** related to the game, it's probably caused by hardware failure or external modifications. In this case, you can restore a backup, and everything should be ok! Below you can find how to do so!~
 
-- In case you are playing on a Linux device now (or played with Proton before), and somehow ended up with both a Save and save folders on your game directory, delete the save and rename the Save to save as soon as possible or restore a backup from this path (%APPDATA%/FBF/100OrangeJuice) under Proton (if you played with it before) or your Windows device. The path on Proton is likely ~/.local/share/Steam/steamapps/compatdata/282800/pfx/drive_c/users/steamuser/AppData/Roaming/FBF/100OrangeJuice.
+4) In case you are playing on a Linux device now (or played with Proton before), and somehow ended up with both a Save and save folders on your game directory, delete the save and rename the Save to save as soon as possible or restore a backup from this path (%APPDATA%/FBF/100OrangeJuice) under Proton (if you played with it before) or your Windows device. The path on Proton is likely ~/.local/share/Steam/steamapps/compatdata/282800/pfx/drive_c/users/steamuser/AppData/Roaming/FBF/100OrangeJuice.
+
+5) Missing Save Data (Pre-June 2024)
+
+   - As of **2025/12/18**, we have officially retired support for the legacy save format (**user.dat**). This change allows us to further optimize in-game data handling, since the old system that dates back to 2009, when the game scope was a thousand times smaller.
+
+   - How to recover your save **(Windows)**: If you last played before June 2024 and find your save data missing, you can convert it manually. With Steam running, navigate to the game's installation folder and run **100orange_save.exe** located inside the **tools** folder.
+
+   - **macOS and Linux Users:** Due to technical limitations, the conversion tool is only available on Windows. If you cannot access a Windows PC to convert your save, please contact a member of the Fruitbat team on Discord or email your user.dat file to **support@fruitbatfactory.com**. We will be happy to convert it for you!
 
 
 # How to restore a backup (the manual way)
